@@ -25,8 +25,5 @@ async function read_write(){
 
   })
 
-  
-  
-  
 }
 read_write();
