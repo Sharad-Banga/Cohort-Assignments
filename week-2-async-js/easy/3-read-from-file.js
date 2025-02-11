@@ -5,8 +5,8 @@
 // Try to do an expensive operation below the file read and see how it affects the output. 
 // Make the expensive operation more and more expensive and see how it affects the output. 
 
-const { log } = require('console');
-const fs = require('fs');
+
+import fs from 'fs';
 
 fs.readFile("./z.txt","utf-8",(err,data)=>{
 

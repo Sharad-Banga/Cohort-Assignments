@@ -7,8 +7,8 @@ let count = 0;
 
 function fxn(){
    count++;
-  console.log(CSSCounterStyleRule);
+  console.log(count);
   
 }
 
-setInterval(fxn,1000)
+setInterval(fxn,1000);

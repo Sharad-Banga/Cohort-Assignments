@@ -11,7 +11,6 @@ function fxn(){
   count++;
   console.log(count);
   setTimeout(fxn,1000);
-  
 }
 
 fxn();
