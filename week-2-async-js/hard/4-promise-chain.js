@@ -28,13 +28,17 @@ function wait3(t) {
 }
 
 async function calculateTime(t1, t2, t3) {
-  const old = new Date();
-  await wait1(t1);
-  await wait2(t2);
-  await wait3(t3);
-
-  const lapse = new Date() - old;
-
+  const old = new Date();// 10
+  console.log(old);
+  
+  await wait1(t1); //3
+  await wait2(t2); //2
+  await wait3(t3); //1
+ 
+  
+  const lapse = new Date()  - old; 
+  console.log(new Date());
+  
   console.log(lapse);
   
 
